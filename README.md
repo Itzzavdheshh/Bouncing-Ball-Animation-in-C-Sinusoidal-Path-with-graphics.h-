@@ -1,7 +1,10 @@
 # Bouncing-Ball-Animation-in-C-Sinusoidal-Path-with-graphics.h-
 #include <graphics.h>
+
 #include <conio.h>
+
 #include <math.h>
+
 #include <dos.h>
 
 #define PI 3.14159265
