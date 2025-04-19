@@ -1,0 +1,25 @@
+🏀 Bouncing Ball Animation in C (Sinusoidal Path with graphics.h):-
+
+
+-This project simulates a bouncing ball animation in C using the classic graphics.h library.
+-The ball moves from left to right across the screen, following a sinusoidal path that mimics bouncing motion.
+
+
+💡 Features:-
+-Ball follows a smooth sine wave path starting from the ground.
+-Animation runs continuously until a key is pressed.
+-Uses graphics.h, conio.h, math.h, and dos.h.
+
+
+🧰 Requirements:-
+-Turbo C++ / DOSBox environment (since it uses the Borland Graphics Interface).
+-graphics.h must be available in the C:\\Turboc3\\BGI directory.
+
+
+🛠️ How It Works:-
+-The ball's horizontal position (x) increases over time.
+-The vertical position (y) is calculated using:
+                                            y = baseY - amplitude * fabs(sin(angle));
+
+
+-This creates a bouncing effect that repeats as the ball wraps from right to left.
