@@ -9,7 +9,9 @@
 
 #define PI 3.14159265
 
-int main() {
+int main()
+{
+   
     int gd = DETECT, gm;
     int x, y;
     float angle = 0;
